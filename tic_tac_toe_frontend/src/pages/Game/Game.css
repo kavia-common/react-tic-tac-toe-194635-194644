@@ -1,0 +1,22 @@
+.game-wrap {
+  min-height: 100vh;
+  background: #f9fafb; /* background */
+  display: flex;
+  flex-direction: column;
+}
+
+.game-main {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+  text-align: center;
+}
+
+.game-footer {
+  margin-top: 10px;
+}
+
+.env-hint {
+  color: #9CA3AF;
+}

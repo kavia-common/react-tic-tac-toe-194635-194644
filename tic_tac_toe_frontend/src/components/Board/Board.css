@@ -1,0 +1,14 @@
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.ttt-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

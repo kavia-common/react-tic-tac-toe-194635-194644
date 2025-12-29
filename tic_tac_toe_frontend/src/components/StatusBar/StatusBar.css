@@ -1,0 +1,46 @@
+.ttt-statusbar {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0 20px;
+  flex-wrap: wrap;
+}
+
+.ttt-badge {
+  background: #ffffff; /* surface */
+  border: 1px solid #9CA3AF; /* secondary */
+  color: #111827; /* text */
+  padding: 8px 12px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.ttt-badge--success {
+  border-color: #10B981; /* success */
+  color: #065f46;
+}
+
+.ttt-badge--neutral {
+  border-color: #6B7280;
+  color: #374151;
+}
+
+.ttt-restart {
+  background: #6B7280; /* primary */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.2s ease, background 0.2s ease;
+  box-shadow: 0 1px 0 rgba(17, 24, 39, 0.04);
+}
+
+.ttt-restart:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.08);
+  background: #4b5563;
+}

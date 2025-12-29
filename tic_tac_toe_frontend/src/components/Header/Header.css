@@ -1,0 +1,16 @@
+.ttt-header {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.ttt-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #111827; /* text */
+}
+
+.ttt-subtle {
+  margin: 6px 0 0;
+  color: #6B7280; /* primary */
+  font-size: 0.875rem;
+}
